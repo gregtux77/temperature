@@ -3,7 +3,7 @@ var uninstall = require('./lib/uninstall.js');
 
 module.exports = function(sails) {
 
-	var temperature = require('./lib/temperature.js');
+
 	 	
 	return {
 		temperature: temperature,
