@@ -9,6 +9,7 @@ module.exports = function(sails) {
 	 	
 	return {
 		temperature: temperature,
+		command:command,
 		install: install,
 		uninstall: uninstall
 	};
