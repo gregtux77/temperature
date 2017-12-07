@@ -1,16 +1,5 @@
 
 /*
- * Receiver is not mandatory !!
- * You can just have a emitter.
- * 
- * Configuration  
- * Pin 2 => interruption 0 => radio receiver
- * Pin 10 => 433Mhz emitter
- * 
- * Wait for a JSON on serial port. When a JSON is received, it calls the right function
- * Code example : (the % is for the end of the command). Put thats code into the serial to test
- * {"function_name":"SendRadioCode","code":"16129807"}%
- * => call the SendRadioCode function with code "16129807"
  * 
  * {"function_name":"SendRadioCode","prise":"1","etat":"1"}%
  * {"function_name":"temperature"}%
